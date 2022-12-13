@@ -6,18 +6,19 @@ body {
   padding: 0;
 }
 
-.top h1 {
-  
+#wrap{
+min-width: 600px;
 }
 
-.top-row{
- margin-top: 12px;
+.top-row {
+  margin-top: 12px;
 }
 
 .home-row {
   margin: 10px 0px;
-  width: 500px;
+  width: 100%;
   display: inline-block;
+  text-align: center;
   vertical-align: middle;
 }
 
@@ -26,6 +27,7 @@ body {
   height: 100vh;
   text-align: center;
   background-color: #ffffff;
+  min-width: 280px;
 }
 
 .letterbox {
